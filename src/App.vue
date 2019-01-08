@@ -6,13 +6,11 @@
 </template>
 
 <script>
-import todo from "./components/todo";
 import todoList from "./components/todoList";
 
 export default {
   name: "App",
   components: {
-    todo,
     todoList
   }
 };
